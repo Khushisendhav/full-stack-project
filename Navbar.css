@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #003366; /* Dark blue */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-weight: 500;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.nav-links li:hover {
+  color: #ff6600; /* Orange hover color */
+}
+
+
+/* @media (max-width: 768px) {
+  .nav-links {
+    display: none; 
+  }
+} */

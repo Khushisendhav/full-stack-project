@@ -1,0 +1,117 @@
+/* body{
+ background-image: url('../assets/image/doctor.svg');
+
+} */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+
+ 
+  
+  height: 100vh;
+  background-image: url('../assets/image/doctor.svg');
+  background-size: cover;
+  background-repeat: no-repeat;   /* 🛠️ This line fixes the grid effect */
+  background-position: center;
+
+
+  flex-wrap: wrap;
+  /* background-image: url('./assets/4th/doctor.svg') ; */
+}
+image{
+    width: 100%;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 50%;
+  padding-right: 30px;
+}
+
+.hero-content h1 {
+  font-size: 2.8rem;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.hero-content button {
+  padding: 12px 24px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hero-content button:hover {
+  background-color: #e65c00;
+}
+
+.hero-form {
+  flex: 1;
+  max-width: 40%;
+  background-color: rgb(127, 139, 237);
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+.hero-form h3 {
+  margin-bottom: 20px;
+  color: #003366;
+  font-size: 1.5rem;
+}
+
+.hero-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.hero-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hero-form button:hover {
+  background-color: #002244;
+}
+
+ @media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding :40px 20px;
+  }
+
+  .hero-content,
+  .hero-form {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .hero-form {
+    margin-top: 40px; 
+}
+} 
+
+   
